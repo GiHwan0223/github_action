@@ -5,6 +5,10 @@ jobs:
         runs-on: ubuntu-latest
         env:
             ACTOR: ${{github.actor}}
+            ENV: ${{github.env}}
+            JOB: ${{github.job}}
         steps:
             - run: echo "${ACTOR}"
+            - run: echo "${ENV}"
+            - run: echo "${JOB}"
 
