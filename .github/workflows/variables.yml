@@ -4,8 +4,8 @@ jobs:
     print:
         runs-on: ubuntu-latest
         env:
-            USERNAME: ${{var.USERNAME}}
-            USEREMAIL: ${{var.USEREMAIL}}
+            USERNAME: ${{vars.USERNAME}}
+            USEREMAIL: ${{vars.USEREMAIL}}
         steps:
             - run: echo "${USERNAME}"
             - run: echo "${USEREMAIL}"
