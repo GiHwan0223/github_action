@@ -8,7 +8,7 @@ jobs:
         env:
           CONTAINS_FUNC_TRUE: ${{contains('Hello','ell')}}
           CONTAINS_FUNC_FALSE: ${{contains('Hello','k')}}
-          START_WITH_FUNC_TRUE: ${{startWith('Hello','He')}}
-          START_WITH_FUNC_FALSE: ${{startWith('Hello','Ka')}}
-          END_WITH_FUNC_TRUE: ${{endWith('Hello','lo')}}
-          END_WITH_FUNC_FALSE: ${{endWith('Hello','sa')}}
+          START_WITH_FUNC_TRUE: ${{startsWith('Hello','He')}}
+          START_WITH_FUNC_FALSE: ${{startsWith('Hello','Ka')}}
+          END_WITH_FUNC_TRUE: ${{endsWith('Hello','lo')}}
+          END_WITH_FUNC_FALSE: ${{endsWith('Hello','sa')}}
