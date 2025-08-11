@@ -1,0 +1,12 @@
+name: Conditions workflow
+on: push
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Show actor
+              if: ${{github.actor == 'James'}}
+              run: echo "Hello, James"
+            - name: Normal
+              run: echo "Hello"

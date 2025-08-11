@@ -4,6 +4,6 @@ jobs:
     fail:
         runs-on: ubuntu-latest
         steps:
-            - run: exit 0
+            - run: exit 0 # 0 will be successed and 1 will be failed
             - run: echo "Hello"
               if: ${{failure()}}
