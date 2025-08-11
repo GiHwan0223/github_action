@@ -10,3 +10,6 @@ jobs:
               run: echo "Hello, James"
             - name: Normal
               run: echo "Hello, ${{github.actor}}"
+            - name: Match actor
+              if: ${{github.actor == 'GiHwan0223'}}
+              run: echo "An actor is the same."
