@@ -9,4 +9,4 @@ jobs:
               if: ${{github.actor == 'James'}}
               run: echo "Hello, James"
             - name: Normal
-              run: echo "Hello"
+              run: echo "Hello, ${{github.actor}}"
