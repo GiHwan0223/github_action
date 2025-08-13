@@ -4,5 +4,5 @@ jobs:
     share:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "RESULT=hello" >> "${GITHHUB_ENV}"
+            - run: echo "RESULT=hello" >> "${GITHUB_ENV}"
             - run: echo "${RESULT}"
