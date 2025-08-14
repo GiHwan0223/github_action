@@ -1,4 +1,4 @@
-name: Test_Go
+name: Test_Go_file
 on:
     pull_request:
         paths: ['go/**/*.go']
