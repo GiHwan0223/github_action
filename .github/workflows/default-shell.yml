@@ -1,0 +1,11 @@
+name: Default Shell
+on: push
+defaults:
+    run:
+        shell: bash
+jobs:
+    print:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "${SHELL}"
+
