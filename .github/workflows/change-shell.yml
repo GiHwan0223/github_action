@@ -1,0 +1,13 @@
+name: Change Shell
+on: push
+jobs:
+    print:
+        runs-on: ubuntu-latest
+        timeout-minutes: 2
+        steps:
+            - shell: bash
+              run: echo "${SHELL}"
+            - shell: python
+              run: |
+                import os
+                print(os.environ['PATH'])
