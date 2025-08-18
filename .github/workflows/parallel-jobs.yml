@@ -9,10 +9,10 @@ jobs: # run three jobs in parallel
     second:
         runs-on: ubuntu-latest
         steps:
-            - shell: shell
+            - shell: bash
               run: sleep 10 && echo "Second job"
     thrid:
         runs-on: ubuntu-latest
         steps:
-            - shell: shell
+            - shell: bash
               run: sleep 10 && echo "Third job"
