@@ -16,4 +16,4 @@ jobs:
             PASSWORD: ${{secrets.PASSWORD}}
         steps:
             - run: echo "${USERNAME}"
-            - run: echo "${secret.PASSWORD}"
+            - run: echo "${secrets.PASSWORD}"
