@@ -6,7 +6,7 @@ inputs:
   enable-context:
     default: 'true'
     required: false
-    description: Wheter show a context logs.
+    description: Whether to output context logs
 outputs:
   dumped-date:
     value: ${{steps.current.outputs.date}}
