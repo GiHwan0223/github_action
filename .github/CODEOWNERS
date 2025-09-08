@@ -1,0 +1,8 @@
+# The owner of this reporitory
+* @gihwan
+
+# Set code owners as a team for the specific type of code
+*.txt @gihwan0223/gihwan-team
+
+# multiple onwers in the specific directories
+.github/workflow/ @github @gihwan0223/gihwan-team
