@@ -1,5 +1,6 @@
 # The owner of this reporitory
 * @gihwan
+* @gihwan0223
 
 # Set code owners as a team for the specific type of code
 *.txt @gihwan0223/gihwan-team
