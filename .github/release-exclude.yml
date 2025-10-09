@@ -1,0 +1,10 @@
+changelog:
+  categories:
+    - title: Enhancement
+      labels:
+        - enhancement
+  exclude:
+    labels:
+      - dependencies
+    authors:
+      - dependabot
