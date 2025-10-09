@@ -7,4 +7,8 @@ changelog:
       labels:
         - bug
         - fixes
+    - title: Add Question
+      labels:
+        - question
+        - interview
  
