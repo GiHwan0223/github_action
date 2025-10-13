@@ -7,7 +7,7 @@ jobs:
     release:
         runs-on: ubuntu-latest
         env:
-            VERSION: ${{github.ref_name}} #get version from gittag
+            VERSION: ${{github.ref_name}} #get version from Git tag
         permissions:
             contents: write
         steps:
